@@ -1,0 +1,234 @@
+body {
+background-color: #bebebe
+
+}
+.wrapper {
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 1170px;
+    margin: 0 auto;
+    position: relative;
+}
+.navigation {
+    background-image: url(../image/fon.png.png);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 36px;
+    padding-bottom: 40px;
+}
+.nav {
+    display: flex;
+    list-style-type: none;
+    padding-left: 0%;
+    font-weight: 700px;
+    text-transform: uppercase;
+}
+.nav>li {
+padding-left: 23px;
+margin-left: 16px;
+}
+.nav>li>a {
+ text-decoration:none;
+  color:aliceblue
+}
+.banner {
+ background-image: url(../image/fon.png.png);
+ width: 1500px;
+ text-align: right;
+ text-align: left;
+ border: 1px;
+ margin: 0 auto;
+ justify-content: space-between;
+ display: flex;
+ align-items: center;
+ padding-top: 60px;
+ padding-bottom: 320px;
+}
+.coputer {
+position: absolute;
+left: -180px;
+top: 0px;
+display: inline;
+text-align: left;
+}
+.title {
+position: relative;
+right: -250px;
+top: 0px;
+display: inline;
+text-align: right;
+font-size: 48px;
+color: rgb(214, 220, 224);
+}
+.description {
+font-size: 16px;
+color: #bebebe;
+line-height: 26.25px;
+max-width: 570px;
+font-family: 'Roboto', sans-serif;
+position: absolute;
+top: 70px;
+right: -420px;
+text-decoration: none;
+}
+.bth {
+ display: block;
+ text-decoration: none;
+ font-size: 16px;
+ color: #bebebe;
+ text-transform: uppercase;
+ background-color: #B20000;
+ border: 2px solid #B20000;
+ padding: 16px 0;
+ max-width: 190px;
+ text-align: center;
+ position: relative;
+ right: -250px;
+ top: 170px;
+ text-decoration: none;   
+}
+.h2{
+padding-top: 40px;
+font-size: 42px;
+text-align: center;
+}
+.p2{
+padding-top: 50px;
+font-size: 21.25px;
+max-width: 670px;
+position: absolute;
+top: 60px;
+right: 260px;
+text-decoration: none;
+text-align: center ;
+ color: #471616;  
+}
+.n1{
+ position: relative;
+ top: 210px;
+ left: 160px;
+padding-top: 200px;
+align-items: center;
+}
+.n2{
+position: relative;
+ top: 210px;
+ left: 209px;
+padding-top: 200px;
+align-items: center;
+}
+.n3{
+    position: relative;
+    top: 210px;
+    left: 258px;
+   padding-top: 200px;
+   align-items: center;
+   } 
+   .n4{
+    position: relative;
+    top: 210px;
+    left: 306px;
+   padding-top: 200px;
+   align-items: center;
+   }
+
+.re{
+    padding-top: 50px;
+    width: 1505px;
+    height: 250px;
+    margin-left: -164px;
+}
+.Omne{
+  position: absolute;
+  top: 1150px;
+ padding-top: 60px;
+}
+.avtor{ 
+    position: absolute;
+    padding-top: 310px;
+    width: 550px;
+    height: 450px;
+    left:  750px;
+    margin-top: 40px;
+}
+.skill{
+    position: absolute;
+    padding-top: 310px;
+    width: 445px;
+    height: 257px;
+    left: 195px;
+    margin-top: 120px;
+}
+.video{
+    background-image: url(../image/vide0-fon.png);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 250px;
+    margin-top: 700px;
+}
+.t1{
+ padding-top: 50px;
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+}
+.p3{
+color: #fff;
+padding-top: 50px;
+font-size: 21.25px;
+max-width: 670px;
+position: absolute;
+text-align: center ;
+width: 570px;
+right: 260px;
+top: 80px;
+}
+.vid{ z-index: 2;
+width: 1100px;
+height: 600px;
+align-items: center;
+padding-top: 180px;
+}
+.play{
+    position: absolute;
+    z-index: 1;
+    top: 510px;
+    right: 560px;
+}
+.Foto{
+    width: 1000px; /* тут я понимаю должен быть контейнер для фото чтоб за края не вылазило*/
+    margin: 0px;
+    padding: 0px;  
+}
+.kl1{
+    float: left;
+    position: absolute;
+    width: 380px;
+    height: 380px;
+}
+.k2{ position: absolute; /* здесть тоже что-то другое должно быть и формат фото через display:flex */
+    width: 380px;
+    height: 380px;
+   left: 395px;
+}
+.kl3{
+    position: absolute;
+    width: 380px;
+    height: 380px;
+    left: 775px;
+}
+.kl4{
+    position: absolute;
+    width: 380px;
+    height: 380px;
+    left: 1120px;
+}
+.mlogo{
+    position: relative;
+    padding-top: 480px;
+    left: 120px;
+    align-items: center;
+}
+ 
